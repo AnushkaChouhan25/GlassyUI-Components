@@ -29,9 +29,13 @@ const Header: React.FC = () => {
 
   return (
     <nav style={navStyle}>
-      <h1 className='text-white text-[20px] font-bold'>
-        <span className='text-blue-400'>Glass</span>UI
-      </h1>
+      <div className='flex items-center space-x-2'>
+        <Link to='/'>
+          <h1 className='text-white text-[20px] font-bold'>
+            <span className='text-blue-400'>Glass</span>UI
+          </h1>
+        </Link>
+      </div>
       <ul style={ulStyle}>
         <li style={liStyle} className='navbar-item'>
           <Link
